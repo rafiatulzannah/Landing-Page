@@ -4,7 +4,7 @@ const collections = [
   {
     name: "Easy Product Management",
     href: "#",
-    imageSrc: "/Frame 9.svg",
+    imageSrc: "/Card1.svg",
     imageAlt: "Easy Product Management",
     description:
       "Merchants can easily manage and update their product listings. This helps ensure accuracy and timeliness, which can lead to increased customer satisfaction.",
@@ -12,7 +12,7 @@ const collections = [
   {
     name: "Efficient Employee Management",
     href: "#",
-    imageSrc: "/Frame 189.svg",
+    imageSrc: "/Card2.svg",
     imageAlt: "Efficient Employee Management",
     description:
       "Merchants can easily manage their staff. This can include tracking hours worked, assigning tasks, and managing schedules. By streamlining these processes, merchants can focus more on growing their business.",
@@ -20,7 +20,7 @@ const collections = [
   {
     name: "Customizable",
     href: "#",
-    imageSrc: "/Frame.svg",
+    imageSrc: "/Card3.svg",
     imageAlt: "Customizable",
     description:
       "The ability to add merchant sites and domains means that each merchant can have their own unique look and feel. This can help differentiate their brand from competitors and create a more personalized shopping experience for customers.",
@@ -33,7 +33,7 @@ export default function Home() {
       <div className="relative bg-gray-900">
         <div aria-hidden="true" className="absolute inset-0 overflow-hidden">
           <img
-            src="/image.png"
+            src="/hero-image.png"
             alt=""
             className="h-full w-full object-cover object-center"
           />
